@@ -221,6 +221,28 @@ img {
   margin-top: 2rem;
 }
 
+.tab-content-bottom {
+  padding: 3rem 0;
+  background: #000;
+  color: #fff;
+}
+
+#tab-content-bt .tab-content-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+hr {
+  width: 100%;
+  border-style: solid;
+  color: #3d3d3d;
+  border-width: 0.4rem;
+}
+
 /*Text styles*/
 
 .text-xl {
